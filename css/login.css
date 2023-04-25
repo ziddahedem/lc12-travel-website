@@ -58,8 +58,8 @@ body {
 	border: 2px solid #ffc400;
 }
 .main-nav li:nth-child(2) a:hover {
-	background: #b13131;
-	border: 2px solid #b13131;
+	background: #ffc400;
+	border: 2px solid #ffc400;
 }
 
 .user-modal {
@@ -68,7 +68,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(127, 37, 37, 0.9);
+  background: url("./images/pic6.jpg") repeat;
   z-index: 3;
   overflow-y: auto;
   cursor: pointer;
