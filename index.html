@@ -411,5 +411,28 @@
     <script src="js/slider.js"></script>
     <!-- ======== IndexJS ======= -->
     <script src="js/index.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBpuk8J3MYbUyiFUxEqoMlWHM2TZNdiRrU",
+        authDomain: "travel-website-6dfe1.firebaseapp.com",
+        projectId: "travel-website-6dfe1",
+        storageBucket: "travel-website-6dfe1.appspot.com",
+        messagingSenderId: "411693990332",
+        appId: "1:411693990332:web:e373088a2e2f68daae6bb9",
+        measurementId: "G-Z0XJL3V9LX"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
